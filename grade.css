@@ -1,0 +1,228 @@
+body{
+    background: linear-gradient(to right, #A2D2FF, #CBB5D9 , #FFC8DD);
+    font-family: "Segoe UI",sans-serif;
+}
+
+.result-card{
+    background:#fff;
+    border-radius:30px;
+    padding:50px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.navbar{
+    background:white;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+    color:#7B61FF !important;
+    font-size:40px;
+    font-weight:bold;
+}
+.info-card{
+    background:#fff;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+    position: relative;
+    height: 120px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .total-card p{
+    color: #7C3AED;
+
+ }
+.correct-card p{
+    color:#16A34A;
+}
+
+.wrong-card p{
+    color:#DC2626;
+}
+
+.score-card p{
+    color:#2563EB;
+}
+
+
+
+.total-card{
+    background:#F3EEFF;
+}
+
+.correct-card{
+    background:#ECFFF4;
+}
+
+.wrong-card{
+    background:#FFF1F4;
+}
+
+.score-card{
+    background:#EEF5FF;
+}
+.score-circle{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:45px;
+    font-weight:bold;
+    color:#4F46E5;
+
+    background:
+    conic-gradient(#4F46E5 0deg,
+                   #E5E7EB 0deg);
+
+    transition:.5s;
+}
+
+.score-circle::before{
+    content:"";
+    position:absolute;
+
+    width:170px;
+    height:170px;
+      background:white;
+    border-radius:50%;
+}
+.score-circle span{
+    position:relative;
+    z-index:1;
+}
+.icon-circle{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.total-icon{
+    background:#efe8ff;
+    color:#8b5cf6;
+}
+
+.correct-icon{
+    background:#d9fbe6;
+    color:#16a34a;
+}
+
+.wrong-icon{
+    background:#ffe2e5;
+    color:#dc2626;
+}
+
+.score-icon{
+    background:#dbeafe;
+    color:#2563eb;
+}
+.custom-btn i{
+    font-size:20px;
+}
+.dashboard-btn{
+    background:#F5F0FF;
+    color:#8B5CF6;
+    border:2px solid #D8B4FE;
+}
+
+.dashboard-btn:hover{
+    background:#8B5CF6;
+    color:#fff;
+}
+.custom-btn{
+    height: 48px;
+    border-radius: 16px;
+    font-size: 10px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+    transition: .3s;
+}
+
+.history-btn{
+    background:#FFF7ED;
+    color:#F59E0B;
+    border:2px solid #FCD34D;
+}
+
+.history-btn:hover{
+    background:#F59E0B;
+    color:#fff;
+}
+.ranking-btn{
+    background:#EFF6FF;
+    color:#2563EB;
+    border:2px solid #93C5FD;
+}
+
+.ranking-btn:hover{
+    background:#2563EB;
+    color:#fff;
+}
+.status-bar{
+    width:100%;
+    padding:18px;
+    border-radius:20px;
+    background:linear-gradient(90deg,#eefdf4,#f8fff9);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    color:#16a34a;
+    font-weight:600;
+    margin-top:35px;
+}
+.computer{
+    width: 100px;
+    height: 80px;
+}
+.MMO{
+    margin-left: -20px;
+}
+.texnav{
+    color: black;
+    background-color:white;
+    transition: 0.3s;
+    width: 200px; 
+    border: none;
+}
+.texnav:hover{
+    background-color: #A2D2FF;
+    transform: scale(1.05);
+}
+.active-menu {
+    background-color: #A2D2FF !important;
+}
+.setting{
+    color: black;
+    background-color:white;
+    transition: 0.3s;
+    width: 220px;
+    margin-left: 0px;
+    border: none;
+}
+.setting:hover{
+    background-color:#FAB1CC;
+    transform: scale(1.05);
+}
+
+
+
+

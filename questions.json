@@ -1,0 +1,1355 @@
+{
+  "First Year": {
+    "Discrete Mathematics": [
+      {
+        "id": 1,
+        "question": "Which of the following bits is the negation of the bits “010110”?",
+        "options": [
+            "111001",
+            "001001",
+            "101001",
+            "111111"
+        ],
+        "answer": "101001"
+      },
+      {
+        "id": 2,
+        "question": "If A is “001100” and B is “010101” then what is the value of A (Ex-or) B?",
+        "options": [
+            "000000", 
+            "111111", 
+            "001101", 
+            "011001"
+        ],
+        "answer": "011001"
+      },
+      {
+        "id": 3,
+        "question": "The Ex-nor of this string “01010101” with “11111111” is?",
+        "options": [
+            "10101010", 
+            "00110100", 
+            "01010101", 
+            "10101001"
+        ],
+        "answer": "01010101"
+      },
+      {
+        "id": 4,
+        "question": "What is the one’s complement of this string “01010100”?",
+        "options": [
+            "10101010", 
+            "10101011", 
+            "01010101", 
+            "10101001"
+        ],
+        "answer": "10101011"
+      },
+      {
+        "id": 5,
+        "question": " A Highest Common Factor of a, b is defined as __________",
+        "options": [
+          "It is the smallest integer divisible by both a and b",
+          "It is the greatest integer divisor of both a and b",
+          "It is the sum of the number a and b",
+          "None of the mentioned"
+        ],
+        "answer": "It is the greatest integer divisor of both a and b"
+      },
+      {
+        "id": 6,
+        "question": " HCF of 6, 10 is?",
+        "options": [
+            "60", 
+            "30", 
+            "10", 
+            "2"
+        ],
+        "answer": "2"
+      },
+      {
+        "id": 7,
+        "question": "A Complexity of algorithm depends upon _________ ",
+        "options": [
+          "Time only",
+          "Space only",
+          "Both Time and Space",
+          "None of the mentioned"
+        ],
+        "answer": "Both Time and Space"
+      },
+      {
+        "id": 8,
+        "question": "For a recursive algorithm _________",
+        "options": [
+          "a base case is necessary and is solved without recursion.",
+          "a base case is not necessary",
+          "does not solve a base case directly",
+          "none of the mentioned"
+        ],
+        "answer": "a base case is not necessary "
+      },
+      {
+        "id": 9,
+        "question": "{x: x is a real number between 1 and 2} is an ________",
+        "options": [
+          "Infinite set",
+          "Finite set",
+          "Empty set",
+          "None of the mentioned"
+        ],
+        "answer": "Infinite set"
+      },
+      {
+        "id": 10,
+        "question": " For two equal sets there ___________",
+        "options": [
+          "Cardinality is same",
+          "Cardinality is different",
+          "May be same or different",
+          "None of the mentioned"
+        ],
+        "answer": "Cardinality is same"
+      }
+    ],
+    "Data Science" : [
+        {
+            "id" : 1 ,
+            "question" : "Which of the following is one of the key data science skills?" ,
+            "options" : [
+                "Data Visualization" ,
+                "Machine Learning" ,
+                "Statistics" ,
+                "All of the mentioned"
+            ],
+            "answer" : "All of the mentioned"
+        },
+        {
+            "id" : 2 ,
+            "question" : "Which of the following is NOT a type of machine learning?" ,
+            "options" : [
+                "Computational learning" ,
+                "Reinforcement learning" ,
+                "Unsupervised learning" ,
+                "Supervised learning"
+            ],
+            "answer" : "Computational learning"
+        },
+        {
+            "id" : 3 ,
+            "question" : "Which of the following is a good way of performing experiments in data science?" ,
+            "options" : [
+                "Generalize to the problem" ,
+                "Have Replication" ,
+                "Measure variability" ,
+                "All of the mentioned"
+            ],
+            "answer" : "All of the mentioned"
+        },
+        {
+            "id" : 4 ,
+            "question" : "What does the term “feature engineering” refer to in data science?" ,
+            "options" : [
+                "The process of transforming raw data into meaningful features" ,
+                "The process of gathering more data" ,
+                "The process of applying machine learning algorithms" ,
+                "The process of splitting data into training and testing sets"
+            ],
+            "answer" : "The process of transforming raw data into meaningful features"
+        },
+        {
+            "id" : 5 ,
+            "question" : "Which of the following is the most important language for Data Science?" ,
+            "options" : [
+                "R" ,
+                " Java" ,
+                "Ruby" ,
+                "None of the mentioned" 
+            ],
+            "answer" : "R" 
+        },
+        {
+            "id" : 6 ,
+            "question" : "What is the role of processing code in the research pipeline?" ,
+            "options" : [
+                "Transforms the analytical results into figures and tables" ,
+                "Transforms the measured data into analytic data" ,
+                "Transforms the analytic data into measured data" ,
+                "All of the mentioned"
+            ],
+            "answer" : "Transforms the measured data into analytic data"
+        },
+        {
+            "id" : 7 ,
+            "question" : "Which of the following is a common method for data preprocessing?" ,
+            "options" : [
+                "Data normalization" ,
+                "Data storage" ,
+                "Data aggregation" ,
+                "Data visualization"
+            ],
+            "answer" : "Data normalization"
+        },
+        {
+            "id" : 8 ,
+            "question" : "Which of the following is the top most important thing in data science?" ,
+            "options" : [
+                "data" ,
+                "question" ,
+                "answer" ,
+                "none of the mentioned"
+            ],
+            "answer" : "question"
+        },
+        {
+            "id" : 9 ,
+            "question" : "In supervised learning, which of the following is required?" ,
+            "options" : [
+                "Labeled data" ,
+                "Only numerical data" ,
+                "Unlabeled data" ,
+                "Only categorical data"
+            ],
+            "answer" : "Labeled data"
+        },
+        {
+            "id" : 10 ,
+            "question" : "What technique is commonly used in data science for making predictions?" ,
+            "options" : [
+                "Data cleaning" ,
+                "Data Storage" ,
+                "Machine Learning" ,
+                "Data Encoding"
+            ],
+            "answer" : "Machine Learning"
+        }
+    ],
+    "Software Engineering": [
+      {
+        "id": 1,
+        "question": "Software is defined as ___________",
+        "options": [
+          "set of programs, documentation & configuration of  data",
+          "set of programs",
+          " documentation and configuration of data",
+          " None of the mentioned"
+        ],
+        "answer": "set of programs, documentation & configuration of  data"
+      },
+      {
+        "id": 2,
+        "question": "What is Software  Engineering?",
+        "options": [
+          "Designing a software",
+          "Testing a software",
+          "Application of engineering principles to the design a software",
+          "None of the above"
+        ],
+        "answer": "Application of engineering principles to the design a software"
+      },
+      {
+        "id": 3,
+        "question": "What are the features of Software Code?",
+        "options": [
+          "Simplicity",
+          "Accessibility",
+          "Modularity",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 4,
+        "question": " ____________ is a software development activity that is not a part of software processes.",
+        "options": [
+            "Validation", 
+            "Specification", 
+            "Development", 
+            "Dependence"
+        ],
+        "answer": "Dependence"
+      },
+      {
+        "id": 5,
+        "question": "Attributes of good software is ____________",
+        "options": [
+          "Development",
+          "Maintainability & functionality",
+          "Functionality",
+          "Maintainability"
+        ],
+        "answer": "Maintainability & functionality"
+      },
+      {
+        "id": 6,
+        "question": "What does SDLC stands for?",
+        "options": [
+          "System Design Life Cycle",
+          "Software Design Life Cycle",
+          "Software Development Life Cycle",
+          "System Development Life cycle"
+        ],
+        "answer": "Software Development Life Cycle"
+      },
+      {
+        "id": 7,
+        "question": "Agile  Software Development is based on which of the following type?",
+        "options": [
+          "Iterative Development",
+          "Incremental Development",
+          "Both Incremental and Iterative Development",
+          "Linear Development"
+        ],
+        "answer": "Both Incremental and Iterative Development"
+      },
+      {
+        "id": 8,
+        "question": "Which one of the following is not a software process quality?",
+        "options": [
+            "Visibility", 
+            "Timeliness", 
+            "Productivity", 
+            "Portability"
+        ],
+        "answer": "Portability"
+      },
+      {
+        "id": 9,
+        "question": "What is system software?",
+        "options": [
+            "computer program", 
+            "Testing", 
+            "AI", 
+            "IOT"
+        ],
+        "answer": "computer program"
+      },
+      {
+        "id": 10,
+        "question": "The word which describes the importance of  software design is?",
+        "options": [
+            "Complexity", 
+            "Quality", 
+            "Efficiency", 
+            "Accuracy"
+        ],
+        "answer": "Quality"
+      }
+    ]
+  },
+  "Second Year": {
+    "Data Structure": [
+      {
+        "id": 1,
+        "question": "What is a  data structure?",
+        "options": [
+          "A programming language",
+          "A collection of algorithms",
+          "A way to store and organize data",
+          "A type of computer hardware"
+        ],
+        "answer": "A way to store and organize data"
+      },
+      {
+        "id": 2,
+        "question": "Which data structure is used for implementing recursion?",
+        "options": [
+            "Stack", 
+            "Queue", 
+            "List", 
+            "Array"
+        ],
+        "answer": "Stack"
+      },
+      {
+        "id": 3,
+        "question": " The data structure required to check whether an expression contains a balanced parenthesis is?",
+        "options": [
+            "Queue", 
+            "Stack", 
+            "Tree", 
+            "Array"
+        ],
+        "answer": "Stack"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is not the application of stack?",
+        "options": [
+          "Data Transfer between two asynchronous process",
+          "Compiler Syntax Analyzer",
+          "Tracking of local variables at run time",
+          "A parentheses balancing program"
+        ],
+        "answer": "Data Transfer between two asynchronous process"
+      },
+      {
+        "id": 5,
+        "question": "Which data structure is needed to convert infix notation to postfix notation?",
+        "options": [
+            "Tree", 
+            "Branch", 
+            "Stack", 
+            "Queue"
+        ],
+        "answer": "Stack"
+      },
+      {
+        "id": 6,
+        "question": " What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?",
+        "options": [
+            "Stack", 
+            "Linked List", 
+            "Tree", 
+            "Queue"
+        ],
+        "answer": "Stack"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following statement(s) about stack data structure is/are NOT correct?",
+        "options": [
+          "Top of the Stack always contain the new node",
+          "Stack is the FIFO data structure",
+          "Null link is present in the last node at the bottom of the stack",
+          "Linked List are used for implementing Stacks"
+        ],
+        "answer": " Stack is the FIFO data structure"
+      },
+      {
+        "id": 8,
+        "question": " The data structure required for Breadth First Traversal on a graph is?",
+        "options": [
+            "Array", 
+            "Stack", 
+            "Tree", 
+            "Queue"
+        ],
+        "answer": "Queue"
+      },
+      {
+        "id": 9,
+        "question": "Which data structure is based on the Last In First Out (LIFO) principle?",
+        "options": [
+            "Tree", 
+            "Linked List", 
+            "Stack", 
+            "Queue"
+        ],
+        "answer": "Stack"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following application makes use of a circular linked list?",
+        "options": [
+          "Recursive function calls",
+          "Undo operation in a text editor",
+          "Implement Hash Tables",
+          "Allocating CPU to resources"
+        ],
+        "answer": "Allocating CPU to resources"
+      }
+    ],
+    "Computer Organization and Architecture" : [
+        {
+            "id" : 1 ,
+            "question" : "What is computer organization?" ,
+            "options" : [
+                "structure and behaviors of a computer system as observed by the user" ,
+                "structure of a computer system as observed by the developer" ,
+                "structure and behaviors of a computer system as observed by the developer" ,
+                "All of the mentioned"
+            ],
+            "answer" : "structure and behaviors of a computer system as observed by the user"
+        },
+        {
+            "id" : 2 , 
+            "question" : "Which of the following is a type of computer  architecture?" ,
+            "options" : [
+                "Micro architecture" ,
+                "Harvard Architecture" ,
+                "Von-Neumann Architecture" ,
+                "All of the mentioned" 
+            ],
+            "answer" : "All of the mentioned"
+        },
+        {
+            "id" : 3 ,
+            "question" : "Which of the following is a type of architecture used in the computers nowadays?" ,
+            "options" : [
+                "Micro architecture" ,
+                "Harvard Architecture" ,
+                "Von-Neumann Architecture" ,
+                "System Design"
+            ],
+            "answer" : "Von-Neumann Architecture"
+        },
+        {
+            "id" : 4 ,
+            "question" : "What does CSA stands for?" ,
+            "options" : [
+                "Computer Service Architecture" ,
+                "Computer Speed Addition" ,
+                "Carry Save Addition" ,
+                "None of the mentioned"
+            ],
+            "answer" : "Computer Speed Addition"
+        },
+        {
+            "id" : 5 ,
+            "question" : "The IA-32 system follows which of the following design?" ,
+            "options" : [
+                "CISC" ,
+                "SIMD" ,
+                "RISC" ,
+                "None of the mentioned"
+            ],
+            "answer" : "CISC"
+        },
+        {
+            "id" : 6 ,
+            "question" : "What does VLIW stands for?" ,
+            "options" : [
+                "Very Long Instruction Width" ,
+                "Very Large Instruction Word" ,
+                "Very Long Instruction Width" ,
+                "Very Long Instruction Word"
+            ],
+            "answer" : "Very Long Instruction Word"
+        },
+        {
+            "id" : 7 ,
+            "question" : " ________ are the different type/s of generating control signals." ,
+            "options" : [
+                "Hardwired" ,
+                "Micro-instruction" ,
+                "Micro-programmed" ,
+                "Both Micro-programmed and Hardwired"
+            ],
+            "answer" : "Both Micro-programmed and Hardwired"
+        },
+        {
+            "id" : 8 ,
+            "question" : "What is the full form of ISA?" ,
+            "options" : [
+                "Industry Standard Architecture" ,
+                "International Standard Architecture" ,
+                "International American Standard" ,
+                "None of the mentioned"
+            ],
+            "answer" : "International American Standard"
+        },
+        {
+            "id" : 9 ,
+            "question" : "Which of the following is the full form of CISC?" ,
+            "options" : [
+                "Complex Instruction Sequential Compilation" ,
+                "Complete Instruction Sequential Compilation" ,
+                "Computer Integrated Sequential Compiler" ,
+                "Complex Instruction Set Computer"
+            ],
+            "answer" : "Complex Instruction Set Computer"
+        },
+        {
+            "id" : 10 ,
+            "question" : "What does ISO stands for?" ,
+            "options" : [
+                "International Software Organizations" ,
+                "Industrial Software Organizations" ,
+                "International Standards Organizations" ,
+                "Industrial Standards Organizations"
+            ],
+            "answer" : "International Standards Organizations"
+        }
+    ],
+    "Operating System": [
+      {
+        "id": 1,
+        "question": "Which statement BEST describes an operating system?",
+        "options": [
+          "Hardware component",
+          "Interface between user and hardware",
+          "Programming language",
+          "Memory device"
+        ],
+        "answer": "Interface between user and hardware"
+      },
+      {
+        "id": 2,
+        "question": "The kernel is responsible for:",
+        "options": [
+          "User typing only",
+          "Direct interaction with hardware",
+          "Compiling programs",
+          "Internet browsing"
+        ],
+        "answer": "Direct interaction with hardware"
+      },
+      {
+        "id": 3,
+        "question": "In multitasking systems:",
+        "options": [
+          "One task executes forever",
+          "Multiple programs execute apparently simultaneously",
+          " CPU is always idle",
+          "No scheduling required"
+        ],
+        "answer": "Multiple programs execute apparently simultaneously"
+      },
+      {
+        "id": 4,
+        "question": "Main purpose of process management:",
+        "options": [
+          "Increase ROM size",
+          "Control process execution and resources",
+          " Reduce disk space",
+          "Remove CPU scheduling"
+        ],
+        "answer": "Control process execution and resources"
+      },
+      {
+        "id": 5,
+        "question": "A process waiting for CPU is located in:",
+        "options": [
+            "Terminated queue", 
+            "Ready queue", 
+            "Cache memory", 
+            "ROM"
+        ],
+        "answer": "Ready queue"
+      },
+      {
+        "id": 6,
+        "question": "Which component acts as an interface between user and hardware?",
+        "options": [
+            "Compiler", 
+            "Operating System", 
+            "Assembler", 
+            "Cache"
+        ],
+        "answer": "Operating System"
+      },
+      {
+        "id": 7,
+        "question": "Bootstrap program is stored in:",
+        "options": [
+            "RAM", 
+            "Cache", 
+            "ROM/EPROM", 
+            "Registers"
+        ],
+        "answer": "ROM/EPROM"
+      },
+      {
+        "id": 8,
+        "question": "A process is:",
+        "options": [
+          "Program stored on disk",
+          "Program in execution",
+          "Compiled source code",
+          " CPU scheduler"
+        ],
+        "answer": "Program in execution"
+      },
+      {
+        "id": 9,
+        "question": "PCB stands for:",
+        "options": [
+          "Process Central Block",
+          "Program Control Buffer",
+          "Process Control Block",
+          "Processor Cache Block"
+        ],
+        "answer": " Process Control Block"
+      },
+      {
+        "id": 10,
+        "question": "Short-term scheduler is also called:",
+        "options": [
+          "Job scheduler",
+          "CPU scheduler",
+          "Medium scheduler",
+          "Long scheduler"
+        ],
+        "answer": "CPU scheduler"
+      }
+    ]
+  },
+  "Third Year": {
+    "Blockchain Computing": [
+      {
+        "id": 1,
+        "question": "Which of the following is the benefit of using blockchain for financial transactions?",
+        "options": [
+          "Centralized control of data",
+          "Limited accessibility",
+          "Enhanced transparency and security",
+          "Slow transaction processing"
+        ],
+        "answer": "Enhanced transparency and security"
+      },
+      {
+        "id": 2,
+        "question": "What is a (distributed ledger) in blockchain terminology?",
+        "options": [
+          "A single, central database for storing transactions",
+          "A system only used for financial records",
+          "A ledger shared and synchronized across multiple network nodes",
+          "A private record stored on a local server"
+        ],
+        "answer": "A ledger shared and synchronized across multiple network nodes"
+      },
+      {
+        "id": 3,
+        "question": "What is the primary purpose of a block in a blockchain?",
+        "options": [
+          "To store metadata",
+          "To validate transactions",
+          "To provide encryption",
+          "To facilitate peer-to-peer communication"
+        ],
+        "answer": "To store metadata"
+      },
+      {
+        "id": 4,
+        "question": "What role do miners play in the blockchain network?",
+        "options": [
+          "Verifying transactions and adding them to the blockchain",
+          "Managing the user's digital wallets",
+          "Controlling the supply of cryptocurrencies",
+          "Deciding the value of cryptocurrencies"
+        ],
+        "answer": "Controlling the supply of cryptocurrencies"
+      },
+      {
+        "id": 5,
+        "question": "Which of the following features of blockchain ensures that once data is written, it cannot be modified or deleted?",
+        "options": [
+          "Transparency",
+          "Distributed Ledger",
+          "Immutability",
+          "Hashing"
+        ],
+        "answer": "Immutability"
+      },
+      {
+        "id": 6,
+        "question": "What type of database is blockchain?",
+        "options": [
+          "Centralized relational database",
+          "Decentralized ledger",
+          "Distributed cache",
+          "Hierarchical"
+        ],
+        "answer": "Decentralized ledger"
+      },
+      {
+        "id": 7,
+        "question": "What is the unit structure of a blockchain called?",
+        "options": [
+            "Node", 
+            "Transaction", 
+            "Block", 
+            "Record"
+        ],
+        "answer": "Block"
+      },
+      {
+        "id": 8,
+        "question": "What is the main advantage of decentralization in blockchain?",
+        "options": [
+          "Reduced security risks",
+          "Faster central decision-making",
+          "Increased dependency on intermediaries",
+          "Higher data redundancy"
+        ],
+        "answer": "Reduced security risks"
+      },
+      {
+        "id": 9,
+        "question": "What is the main component of a blockchain that contains transaction data?",
+        "options": [
+            "Chain", 
+            "Node", 
+            "Block", 
+            "Hash"
+        ],
+        "answer": "Block"
+      },
+      {
+        "id": 10,
+        "question": "What is the purpose of a Merkle tree in blockchain architecture?",
+        "options": [
+          "Generating private keys",
+          "Storing cryptocurrency",
+          "Encrypting data",
+          "Efficiently verifying data integrity"
+        ],
+        "answer": "Efficiently verifying data integrity"
+      }
+    ],
+    "Machine Learning" : [
+        {
+            "id" : 1 ,
+            "question" : "What is  Machine learning?" ,
+            "options" : [
+                "The selective acquisition of knowledge through the use of computer programs" ,
+                "The selective acquisition of knowledge through the use of manual programs" ,
+                "The autonomous acquisition of knowledge through the use of computer programs" ,
+                "The autonomous acquisition of knowledge through the use of manual programs"
+            ],
+            "answer" : "The autonomous acquisition of knowledge through the use of computer programs"
+        },
+        {
+            "id" : 2 ,
+            "question" : "What’s the key benefit of using deep learning for tasks like recognizing images?" ,
+            "options" : [
+                "They need less  training data than other methods." ,
+                "They’re easier to explain and understand than other models." ,
+                "They can learn complex details from the data on their own." ,
+                "They work faster and are more efficient computationally."
+            ],
+            "answer" : "They can learn complex details from the data on their own."
+        },
+        {
+            "id" : 3 ,
+            "question" : " Which algorithm is best suited for a binary classification problem?" ,
+            "options" : [
+                "K-nearest Neighbors" ,
+                "Decision Trees" ,
+                "Random Forest" ,
+                "Linear Regression"
+            ],
+            "answer" : "Decision Trees"
+        },
+        {
+            "id" : 4 ,
+            "question" : "What is the key difference between supervised and unsupervised learning?" ,
+            "options" : [
+                "Supervised learning requires labeled data, while unsupervised learning does not." ,
+                "Supervised learning predicts labels, while unsupervised learning discovers patterns." ,
+                "Supervised learning is used for classification, while unsupervised learning is used for regression." ,
+                "Supervised learning is always more accurate than unsupervised learning."
+            ],
+            "answer" : "Supervised learning requires labeled data, while unsupervised learning does not."
+        },
+        {
+            "id" : 5 ,
+            "question" : "Which of the following statements is true about AdaBoost?" ,
+            "options" : [
+                "It is particularly prone to over fitting on noisy datasets" ,
+                "Complexity of the weak learner is important in AdaBoost" ,
+                "It is generally more prone to over fitting",
+                "It improves classification accuracy"
+            ],
+            "answer" : "It is generally more prone to over fitting"
+        },
+        {
+            "id" : 6 ,
+            "question" : " Which of the following statements is false about Ensemble learning?" ,
+            "options" : [
+                "It is a supervised learning algorithm" ,
+                "It is an unsupervised learning algorithm" ,
+                "More random algorithms can be used to produce a stronger ensemble" ,
+                "Ensembles can be shown to have more flexibility in the functions they can represent"
+            ],
+            "answer" : "It is an unsupervised learning algorithm"
+        },
+        {
+            "id" : 7 ,
+            "question" : "What elements describe the Candidate-Elimination algorithm?" ,
+            "options" : [
+                "depends on the dataset" ,
+                "just a set of candidate hypotheses" ,
+                "just a set of instances" ,
+                "set of instances, set of candidate hypotheses"
+            ],
+            "answer" : "set of instances, set of candidate hypotheses"
+        },
+        {
+            "id" : 8 ,
+            "question" : "What is the goal of concept learning?" ,
+            "options" : [
+                "To minimize cross-validation set error" ,
+                "To maximize test set accuracy" ,
+                "To find a hypothesis that is most suitable for training instances" ,
+                "To identify all possible predictors"
+            ],
+            "answer" : "To find a hypothesis that is most suitable for training instances"
+        },
+        {
+            "id" : 9 ,
+            "question" : "In the list-then-eliminate algorithm, the initial version space contains _____" ,
+            "options" : [
+                "most specific hypothesis" ,
+                "all hypotheses in H" ,
+                "most accurate hypothesis" ,
+                "most general hypothesis"
+            ],
+            "answer" : "all hypotheses in H"
+        },
+        {
+            "id" : 10 ,
+            "question" : "What is the advantage of the list-then-eliminate algorithm?" ,
+            "options" : [
+                "Computation is less" ,
+                "Time-effective" ,
+                "Over fitting never occurs" ,
+                "Contains all hypotheses consistent with observed data"
+            ],
+            "answer" : "Contains all hypotheses consistent with observed data"
+        }
+    ],
+    "Computer Graphics": [
+      {
+        "id": 1,
+        "question": " Which of the following statements define  Computer  Graphics?",
+        "options": [
+          "It refers to  designing plans",
+          "It means designing computers",
+          "It refers to designing images",
+          "None of the mentioned"
+        ],
+        "answer": "It refers to designing images"
+      },
+      {
+        "id": 2,
+        "question": " Which of the following are the features of Computer Graphics?",
+        "options": [
+          "Creation and deletion of images by computer only",
+          "Deletion and manipulation of graphical images by computer",
+          "Creation and manipulation of graphics by computer",
+          "Creation of artificial images by computer only"
+        ],
+        "answer": "Creation and manipulation of graphics by computer"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is a Computer Graphics type?",
+        "options": [
+          "Raster and Vector",
+          "Raster and Scalar",
+          "Scalar only",
+          "All of the above"
+        ],
+        "answer": "Raster and Vector"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following plane is used for 2D transformations?",
+        "options": [
+          "Three-dimensional plane",
+          "Two-dimensional plane",
+          "One-dimensional plane",
+          "Four-dimensional Plane"
+        ],
+        "answer": "Two-dimensional plane"
+      },
+      {
+        "id": 5,
+        "question": "Which of the following is a Computer Graphics Curve?",
+        "options": [
+          "Bezier Curves",
+          "Implicit Curves",
+          "Explicit Curves",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following is the purpose for using clipping in computer graphics?",
+        "options": [
+          "copying",
+          "zooming",
+          "adding graphics",
+          "removing objects and lines"
+        ],
+        "answer": "removing objects and lines"
+      },
+      {
+        "id": 7,
+        "question": "Curves in computer graphics is primarily used for which of the following function?",
+        "options": [
+          "To draw different types of objects onto the screen",
+          "Zooming out a picture",
+          "Copying a picture",
+          "Zooming in a picture"
+        ],
+        "answer": "To draw different types of objects onto the screen"
+      },
+      {
+        "id": 8,
+        "question": "Bitmap is a collection of ____________ that describes an image.",
+        "options": [
+            "pixels", 
+            "algorithms", 
+            "bits", 
+            "colors"
+        ],
+        "answer": "pixels"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following devices provides positional information to the graphics system?",
+        "options": [
+          "Pointing devices",
+          "Both Input devices and Pointing devices",
+          "Output devices",
+          "Input devices"
+        ],
+        "answer": "Both Input devices and Pointing devices"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is a primary output device of a graphics system?",
+        "options": [
+          "Printer",
+          "Scanner",
+          "Video monitor",
+          "Neither Scanner nor Video monitor"
+        ],
+        "answer": "Video monitor"
+      }
+    ]
+  },
+  "Fourth Year": {
+    "Computer Network": [
+      {
+        "id": 1,
+        "question": "What is a  computer  network?",
+        "options": [
+          "A device used to display information on a computer screen",
+          "A collection of interconnected  computers and devices that can communicate and share resources",
+          "A type of software used to create documents and presentations",
+          "The physical casing that protects a computer’s internal components"
+        ],
+        "answer": "A collection of interconnected  computers and devices that can communicate and share resources"
+      },
+      {
+        "id": 2,
+        "question": "What is internet?",
+        "options": [
+          "A network of interconnected local area networks",
+          "A collection of unrelated computers",
+          "Interconnection of wide area networks",
+          "A single network"
+        ],
+        "answer": "Interconnection of wide area networks"
+      },
+      {
+        "id": 3,
+        "question": "Which of the following is an example of Bluetooth?",
+        "options": [
+          "wide area network",
+          "virtual private network",
+          "local area network",
+          "personal area network"
+        ],
+        "answer": "personal area network"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following computer networks is built on the top of another network?",
+        "options": [
+          "overlay network",
+          "prime network",
+          "prior network",
+          "chief network"
+        ],
+        "answer": "overlay network"
+      },
+      {
+        "id": 5,
+        "question": "What is the full form of OSI?",
+        "options": [
+          "optical service implementation",
+          "open service Internet",
+          "open system interconnection",
+          "operating system interface"
+        ],
+        "answer": "open system interconnection"
+      },
+      {
+        "id": 6,
+        "question": " When a collection of various computers appears as a single coherent system to its clients, what is this called?",
+        "options": [
+          "mail system",
+          "networking system",
+          "computer network",
+          "distributed system"
+        ],
+        "answer": "distributed system"
+      },
+      {
+        "id": 7,
+        "question": "How many layers are there in the ISO OSI reference model?",
+        "options": [
+            "7", 
+            "5", 
+            "4", 
+            "6"
+        ],
+        "answer": "7"
+      },
+      {
+        "id": 8,
+        "question": "What are nodes in a computer network?",
+        "options": [
+          "the computer that routes the data",
+          "the computer that terminates the data",
+          "the computer that originates the data",
+          "all of the mentioned"
+        ],
+        "answer": "all of the mentioned"
+      },
+      {
+        "id": 9,
+        "question": "Which one of the following is not a function of network layer?",
+        "options": [
+          "congestion control",
+          "error control",
+          "routing",
+          "inter-networking"
+        ],
+        "answer": "error control"
+      },
+      {
+        "id": 10,
+        "question": "What is the term for an endpoint of an inter-process communication flow across a computer network?",
+        "options": [
+            "port", 
+            "machine", 
+            "socket", 
+            "pipe"
+        ],
+        "answer": "socket"
+      }
+    ],
+    "Cloud Computing" : [
+        {
+            "id" : 1 ,
+            "question" : "What is  Cloud Computing?" ,
+            "options" : [
+                "Cloud  Computing means providing services like storage, servers, database,  networking, etc" ,
+                "Cloud Computing means storing data in a database" ,
+                "Cloud Computing is a tool used to create an application" ,
+                "None of the mentioned"
+            ],
+            "answer" : "Cloud  Computing means providing services like storage, servers, database,  networking, etc"
+        },
+        {
+            "id" : 2 ,
+            "question" : "Which of the following is not a type of cloud server?" ,
+            "options" : [
+                "Public Cloud Servers" ,
+                "Private Cloud Servers" ,
+                "Dedicated Cloud Servers" ,
+                "Merged Cloud Servers"
+            ],
+            "answer" : "Merged Cloud Servers"
+        },
+        {
+            "id" : 3 ,
+            "question" : "Which of the following are the features of cloud computing?" ,
+            "options" : [
+                "Security" ,
+                "Availability" ,
+                "Large Network Access" ,
+                "All of the mentioned"
+            ],
+            "answer" : "All of the mentioned"
+        },
+        {
+            "id" : 4 ,
+            "question" : "Which of the following is the application of cloud computing?" ,
+            "options" : [
+                "Adobe" ,
+                "Paypal" ,
+                "Google G Suite" ,
+                "All of the above"
+            ],
+            "answer" : "All of the above"
+        },
+        {
+            "id" : 5 ,
+            "question" : "Which of the following is the correct statement about cloud computing?" ,
+            "options" : [
+                "Cloud computing abstracts systems by pooling and sharing resources" ,
+                "Cloud computing is nothing more than the Internet" ,
+                "The use of the word “cloud” makes reference to the two essential concepts" ,
+                "All of the mentioned"
+            ],
+            "answer" : "Cloud computing abstracts systems by pooling and sharing resources"
+        },
+        {
+            "id" : 6 ,
+            "question" : "Which of the following model attempts to categorize a cloud network based on four dimensional factors?" ,
+            "options" : [
+                "Cloud Cube" ,
+                "Cloud Square" ,
+                "Cloud Service" ,
+                "All of the mentioned"
+            ],
+            "answer" : "Cloud Cube"
+        },
+        {
+            "id" : 7 ,
+            "question" : "Which architectural layer is used as a backend in cloud computing?" ,
+            "options" : [
+                "cloud" ,
+                "soft" ,
+                "client" ,
+                "all of the mentioned"
+            ],
+            "answer" : "cloud"
+        },
+        {
+            "id" : 8 ,
+            "question" : "All cloud computing applications suffer from the inherent _______ that is intrinsic in their WAN connectivity." ,
+            "options" : [
+                "noise" ,
+                "propagation" ,
+                "latency" ,
+                "all of the mentioned"
+            ],
+            "answer" : "latency"
+        },
+        {
+            "id" : 9 ,
+            "question" : " Which of the following architectural standards is working with cloud computing industry?" ,
+            "options" : [
+                "Web-application frameworks" ,
+                "Service-oriented architecture" ,
+                "Standardized Web services" ,
+                "All of the mentioned"
+            ],
+            "answer" : "Service-oriented architecture"
+        },
+        {
+            "id" : 10 ,
+            "question" : "Which of the following is required by Cloud Computing?" ,
+            "options" : [
+                "That the identity be authenticated" ,
+                "That the authentication be portable" ,
+                "That you establish an identity" ,
+                "All of the mentioned"
+            ],
+            "answer" : "All of the mentioned"
+        }
+    ],
+    "Embedded Systems": [
+      {
+        "id": 1,
+        "question": "Which memory storage is widely used in PCs and Embedded Systems?",
+        "options": [
+            "EEPROM", 
+            "Flash memory", 
+            "SRAM", 
+            "DRAM"
+        ],
+        "answer": "DRAM"
+      },
+      {
+        "id": 2,
+        "question": "How is the protection and security for an embedded system made?",
+        "options": [
+            "Security chips", 
+            "Memory disk security", 
+            "IPR", 
+            "OTP"
+        ],
+        "answer": "IPR"
+      },
+      
+      {
+        "id": 3,
+        "question": "Which activity is concerned with identifying the task at the final embedded systems?",
+        "options": [
+          "scheduling",
+          "task-level concurrency management",
+          "high-level transformation",
+          "compilation"
+        ],
+        "answer": "task-level concurrency management"
+      },
+      {
+        "id": 4,
+        "question": "Which level simulates the algorithms that are used within the embedded systems?",
+        "options": [
+          "algorithmic level",
+          "switch level",
+          "gate level",
+          "circuit level"
+        ],
+        "answer": "algorithmic level"
+      },
+      {
+        "id": 5,
+        "question": "How an embedded system communicate with the outside world?",
+        "options": [
+            "Memory", 
+            "Output", 
+            "Peripherals", 
+            "Input"
+        ],
+        "answer": "Peripherals"
+      },
+      {
+        "id": 6,
+        "question": "What is the purpose of memory refresh register of Z80?",
+        "options": [
+          "To control on-chip SRAM",
+          "To control on-chip DRAM",
+          "To clear cache",
+          "To control ROM"
+        ],
+        "answer": "To control on-chip DRAM"
+      },
+      {
+        "id": 7,
+        "question": "What does MESI stand for?",
+        "options": [
+          "modified exclusive system input",
+          "modifies embedded shared invalid",
+          "modified exclusive shared invalid",
+          "modified exclusive stale invalid"
+        ],
+        "answer": "modified exclusive shared invalid"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following is the pin efficient method of communicating between other devices?",
+        "options": [
+          "memory port",
+          "peripheral port",
+          "parallel port",
+          "serial port"
+        ],
+        "answer": "serial port"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following unit protects the memory?",
+        "options": [
+          "memory management unit",
+          "peripheral unit",
+          "execution unit",
+          "bus interface unit"
+        ],
+        "answer": "memory management unit"
+      },
+      {
+        "id": 10,
+        "question": "By which instruction does the switching of registers take place?",
+        "options": [
+          "Register instruction",
+          "EXX instruction",
+          "Instruction opcodes",
+          "AXX instruction"
+        ],
+        "answer": "Instruction opcodes"
+      }
+    ]
+  }
+}

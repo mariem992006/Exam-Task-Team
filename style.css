@@ -1,0 +1,180 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+.welcome{
+    background: linear-gradient(to right, #A2D2FF, #CBB5D9 , #FFC8DD);
+}
+.welcome-logo{
+    width:600px;
+    height:500px;
+}
+.get-start{
+    color: black;
+    background-color:#CBB5D9;
+    transition: 0.3s;
+}
+.get-start:hover{
+    background-color:#E3CEC7;
+    transform: scale(1.05);
+}
+.welcome-card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+    width: 85%;
+}
+.welcome-p{
+    color:black;
+}
+.welcome-color{
+    color: black;
+}
+.Signup-btn{
+    color: black;
+    background-color:#CBB5D9;
+    transition: 0.3s;
+    width: 200px;
+    margin-left: 200px;
+}
+.Signup-btn:hover{
+    background-color:#E3CEC7;
+    transform: scale(1.05);
+}
+.login{
+    text-decoration: none;
+    color:#2B5FA3;
+}
+.login:hover{
+    text-decoration: underline;
+}
+.dropyear{
+    color: black;
+    background-color:#CBB5D9;
+    transition: 0.3s;
+    width: 200px;  
+}
+.dropyear:hover{
+    background-color:#E3CEC7;
+    transform: scale(1.05);
+}
+.drop{
+    color: black;
+    transition: 0.3s;
+    width: 200px; 
+}
+.drop:hover{
+    background-color:#E3CEC7;
+    transform: scale(1.05);
+}
+.profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.computer{
+    width: 100px;
+    height: 80px;
+}
+.MMO{
+    margin-left: -20px;
+}
+.texnav{
+    color: black;
+    background-color:white;
+    transition: 0.3s;
+    width: 200px; 
+    border: none;
+}
+.texnav:hover{
+    background-color: #A2D2FF;
+    transform: scale(1.05);
+}
+.active-menu {
+    background-color: #A2D2FF !important;
+}
+.setting{
+    color: black;
+    background-color:white;
+    transition: 0.3s;
+    width: 220px;
+    margin-left: 0px;
+    border: none;
+}
+.setting:hover{
+    background-color:#FAB1CC;
+    transform: scale(1.05);
+}
+.profile{
+    width: 60px;
+}
+.read{
+    color: black;
+    background-color:#A2D2FF;
+    transition: 0.3s;
+    width: 200px;
+    margin-left: 0px;
+}
+.read:hover{
+    background-color:#5E8AB3;
+    transform: scale(1.05);
+}
+.right{
+    width: 500px;
+    border-radius:20px ;
+}
+.subj{
+    width: 50px;
+    height: 50px;
+}
+.qu{
+    color: blue;
+}
+.min{
+    color: #5E8AB3;
+}
+.start{
+    width: 570px;
+    height: 40px;
+    color: black;
+    background-color:#CBB5D9;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: none;
+}
+.start:hover{
+    background-color:#885398;
+    transform: scale(1.03);
+}
+.starte{
+    width: 570px;
+    height: 40px;
+    color: black;
+    background-color:#FFC8DD;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: none;
+}
+.starte:hover{
+    background-color:#e46f9c;
+    transform: scale(1.03);
+}
+.startx{
+    width: 570px;
+    height: 40px;
+    color: black;
+    background-color:#A2D2FF;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: none;
+}
+.startx:hover{
+    background-color:#5E8AB3;
+    transform: scale(1.03);
+}
+.photo{
+    width: 200px;
+    margin-left: 1020px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}

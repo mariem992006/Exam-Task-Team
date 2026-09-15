@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="py-5 welcome">
+
+        <div class="text-center mb-5">
+            <h1 class="welcome-color fw-bold">Create your account!</h1>
+        </div>
+
+        <div class="welcome-card mx-auto">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <img src="assets\welcome photo.png" class="welcome-logo" alt="Character">
+                </div>
+
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Full Name</label>
+                            <input type="text" id="fullName" class="form-control" placeholder="Enter your full name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Email Address</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Password</label>
+                            <input type="password" id="password" class="form-control" placeholder="Create a password">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Confirm Password</label>
+                            <input type="password" id="confirmPassword" class="form-control"
+                                placeholder="Confirm password">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold d-block">Academic Year</label>
+
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle dropyear" type="button" id="yearBtn"
+                                    data-bs-toggle="dropdown">
+                                    Select Your Year
+                                </button>
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" onclick="chooseYear('year1.html','First Year')" class="dropdown-item drop">First Year</a>
+                                    </li>
+                                    <li><a href="#" onclick="chooseYear('year2.html','Second Year')" class="dropdown-item drop">Second Year</a>
+                                    </li>
+                                    <li><a href="#" onclick="chooseYear('year3.html','Third Year')" class="dropdown-item drop">Third Year</a>
+                                    </li>
+                                    <li><a href="#" onclick="chooseYear('year4.html','Fourth Year')" class="dropdown-item drop">Fourth Year</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <button type="button" onclick="signUp()" class="btn px-4 py-2 Signup-btn">
+                            Sign Up
+                        </button>
+
+                        <p class="text-center mt-3">
+                            Already have an account? <a href="login.html" class="fw-bold login">log In</a>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

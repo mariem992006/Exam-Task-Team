@@ -1,0 +1,127 @@
+.computer{
+    width: 100px;
+    height: 80px;
+}
+.MMO{
+    margin-left: -20px;
+}
+.texnav{
+    color: black;
+    background-color:white;
+    transition: 0.3s;
+    width: 200px; 
+    border: none;
+}
+.texnav:hover{
+    background-color: #A2D2FF;
+    transform: scale(1.05);
+}
+.active-menu {
+    background-color: #A2D2FF !important;
+}
+.setting{
+    color: black;
+    background-color:white;
+    transition: 0.3s;
+    width: 220px;
+    margin-left: 0px;
+    border: none;
+}
+.setting:hover{
+    background-color:#FAB1CC;
+    transform: scale(1.05);
+}
+body{
+   background: linear-gradient(to right, #A2D2FF, #CBB5D9 , #FFC8DD);
+}
+
+.ranking-card{
+    background:#fff;
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.ranking-icon{
+    font-size:40px;
+    color:#7c4dff;
+}
+
+.top-card{
+    border-radius:20px;
+    padding:25px;
+    height:140px;
+    display:flex;
+    align-items:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.first{
+    background:#fff8e8;
+}
+
+.second{
+    background:#eef1ff;
+}
+
+.third{
+    background:#fff1e8;
+}
+.medal{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    font-weight:bold;
+    color:#fff;
+}
+
+.gold{
+    background:#f7b500;
+}
+
+.silver{
+    background:#bfc4d1;
+}
+
+.bronze{
+    background:#d87a2f;
+}
+.top-card h4{
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:5px;
+}
+
+.top-card h5{
+    color:#7c4dff;
+    font-weight:600;
+}
+
+.top-card h2{
+    font-size:40px;
+    font-weight:bold;
+}
+.table{
+    margin-top:40px;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#f6f4ff;
+}
+
+.table th{
+    padding:18px;
+    color:#666;
+}
+
+.table td{
+    padding:18px;
+    font-size:18px;
+}
